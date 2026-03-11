@@ -1,0 +1,96 @@
+/* body{
+    background-color: #f3a74b
+   
+} */
+.abc{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.slider-section{
+    height: 500px;
+}
+.top-all .btn{
+    margin: 10px;
+}
+.Foot-Cart{
+    height: 130px;
+    width: 100%;
+     border-radius: 10px;
+   border-right: 2px solid green;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.badge{
+   border: none;
+   margin-top: -10px!important;
+   display: block;
+}
+.fname{
+   margin-top: -10px;
+}
+.btn-explore{
+    background-color: yellow;
+}
+
+
+
+.menu-banner{
+width: 100%;
+height: 250px;
+/* object-fit: cover; */
+}
+
+.menu-overlay{
+position: absolute;
+top: 50%;
+left: 10%;
+transform: translateY(-50%);
+color: white;
+}
+
+.menu-overlay h1{
+font-size: 70px;
+font-family: serif;
+font-weight: 500;
+margin-top: -220px;
+margin-left: 40px;
+}
+
+/* .banner-menu::after{
+content:"";
+position:absolute;
+top:12;
+left:0;
+width:100%;
+height:48%;
+background:rgba(7, 7, 7, 0.4);
+} */
+
+.footer-section{
+position: relative;
+width: 100%;
+}
+
+.footer-img{
+/* position: fixed; */
+width: 100%;
+height: 300px;
+object-fit:fill;
+}
+
+.footer-overlay{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
+}
+
+.footer-overlay h3{
+font-size: 28px;
+margin-bottom: 10px;
+}
+
+.footer-overlay p{
+margin: 0;
+}
