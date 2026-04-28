@@ -7,6 +7,8 @@ import Contact from './ContactPage'
 import Slider from './Slider'
 import Description from './Description'
 import Footer from './Footer'
+import HomePage from '../HomePage'
+// import Login from './Login'
 
 const Header = () => {
    return (
@@ -15,6 +17,9 @@ const Header = () => {
     <Slider />
     <Description />
     <Footer />
+    
+    {/* <HomePage/>
+    <Login/> */}
     {/* <About />
     <Menu />
     <Contact /> */}

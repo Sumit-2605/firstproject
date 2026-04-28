@@ -1,7 +1,7 @@
 import React from "react";
 // You can keep the commented-out import if you might switch back later
 // import foot from "../assets/footer1.avif";
-import footerImg from "../assets/fooot.jpg";
+import footerImg from "../assets/footing.jpg";
 
 const Footer = () => {
   return (

@@ -16,11 +16,15 @@
   font-weight: 600;
 }
 
-#btnreg{
-  background-color: #FF770F;
-  color: #fff;
-  font-size: 20px;
-  padding: 15px 40px;
+#btnreg {
+  background-color: #ff770f; /* orange */
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+}
+
+#btnreg:hover {
+  background-color: #ff770f;
+  color:  white;
 }
 .slider-section {
   position: relative; 

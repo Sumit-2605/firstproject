@@ -94,3 +94,14 @@ margin-bottom: 10px;
 .footer-overlay p{
 margin: 0;
 }
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.card {
+  border-radius: 12px;
+}
+
+iframe {
+  border-radius: 12px;
+}

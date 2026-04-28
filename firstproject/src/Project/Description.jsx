@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import pic from "../assets/pizza.jpg";
 // import pic1 from "../assets/customer.jpg";
 import burger from '../assets/burger2.jpg'
@@ -10,8 +10,20 @@ import flower from '../assets/menuflower.png'
 import dine from '../assets/dine1.jpg'
 import menu from '../assets/Menu-item-4.jpg'
 import cx from '../assets/cx.jpg'
+import { useNavigate } from "react-router-dom";
 
 const Description = () => {
+  const navigate = useNavigate();
+
+  const goToabout = ()=>{
+    navigate("/About")
+  }
+
+  const nav = useNavigate("/Offers")
+       
+  const goTooffers = ()=>{
+    nav("/Offers")
+  }
   return (
     <>
     <div className="container-fluid my-5">
@@ -22,7 +34,7 @@ const Description = () => {
         <div className="col-md-4 col-sm-12">
           <p className="fw-bold font-italic">Country's Most Loved!</p>
 
-          <h1 className="fw-bold">
+          <h1 className="fw-bold" >
             Welcome
           </h1>
 
@@ -36,8 +48,8 @@ const Description = () => {
             cupidatat nisl iaculis etiam.
           </p>
 
-          <button className="btn down-btn rounded-pill px-4">
-            More About Us →
+          <button className="btn down-btn rounded-pill px-4" onClick={goToabout}>
+            More About Us → 
           </button>
         </div>
 
@@ -203,7 +215,7 @@ const Description = () => {
             </p>
             
             <button className="btn btn-lg rounded-pill text-white px-5 py-3 shadow" 
-                    style={{ backgroundColor: "#FF770F", border: "none" }}>
+                    style={{ backgroundColor: "#FF770F", border: "none" }} onClick={goTooffers}>
               Discover Offer <span className="ms-2">→</span>
             </button>
           </div>

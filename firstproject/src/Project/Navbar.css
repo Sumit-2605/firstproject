@@ -1,0 +1,47 @@
+/* General Link Styling */
+.menunav {
+  text-decoration: none;
+  color: #272626;
+  font-weight: 500;
+  
+  transition: color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.menunav:hover {
+  color: #ff6b6b; /* Change to your brand color */
+}
+
+/* Active Link Styling */
+.active-link {
+  color: #ff6b6b;
+  border-bottom: 2px solid #ff6b6b;
+}
+
+/* Reservation Button Styling */
+.btn-reservation {
+  background-color: #ff6b6b;
+  color: white !important;
+  padding: 10px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.btn-reservation:hover {
+  background-color: #ee5253;
+  transform: scale(1.05);
+  color: white;
+}
+
+/* Responsiveness for Mobile */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-wrap: wrap;
+    gap: 15px !important;
+    padding: 20px 0;
+  }
+}
